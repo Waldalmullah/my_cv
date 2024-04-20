@@ -7,11 +7,12 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+/* Home style */
 body{
     /* background: #081b29; */
     /* background: #59344F; */
-    background: #16a56c;
-    color: aliceblue;
+    background: #A8A8A8;
+    color: #264653;
 }
 .header{
     position: fixed;
@@ -24,14 +25,14 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100%;
+    z-index: 1;
 }
 .logo{
     position: relative;
     font-size: 30px;
     /* color: #081b29; */
     /* color: #59344F; */
-    color: aliceblue;
+    color: #081b29;
     text-decoration: none;
     font-weight: 600;
 
@@ -43,7 +44,7 @@ body{
     right: 0;
     width: 100%;
     height: 100%;
-    background: #16a56c;
+    background: #A8A8A8;
     animation: showRight 1s ease forwards;
     animation-delay: .4s;
 } 
@@ -91,7 +92,7 @@ body{
     right: 0;
     width: 100%;
     height: 100%;
-    background: #16a56c;
+    background: #A8A8A8;
     animation: showRight 1s ease forwards;
     animation-delay: 1s;
 } 
@@ -108,7 +109,7 @@ body{
     right: 0;
     width: 100%;
     height: 100%;
-    background: #16a56c;
+    background: #A8A8A8;
     animation: showRight 1s ease forwards;
     animation-delay: 1.3s;
 } 
@@ -125,7 +126,7 @@ body{
     right: 0;
     width: 100%;
     height: 100%;
-    background: #16a56c;
+    background: #A8A8A8;
     animation: showRight 1s ease forwards;
     animation-delay: 1.5s;
 } 
@@ -143,7 +144,7 @@ body{
     right: 0;
     width: 100%;
     height: 100%;
-    background: #16a56c;
+    background: #A8A8A8;
     animation: showRight 1s ease forwards;
     animation-delay: 1.9s;
     z-index: 2;
@@ -169,7 +170,7 @@ body{
 }
 .btn-box a:hover{
     color:#081b29;
-    background: #16a56c;
+    background: #A8A8A8;
     
 }
 .btn-box a::before{
@@ -198,7 +199,7 @@ body{
 }
 .home-sci{
     position: absolute;
-    bottom: 40px;
+    bottom: 150px;
     width: 170px;
     display: flex;
     justify-content: space-between;
@@ -211,7 +212,7 @@ body{
     right: 0;
     width: 100%;
     height: 100%;
-    background: #16a56c;
+    background: #A8A8A8;
     animation: showRight 1s ease forwards;
     animation-delay: 2.3s;
     z-index: 2;
@@ -278,3 +279,96 @@ body{
         width: 0;
     }
 }
+/* About Me style */
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: #A8A8A8;
+    color: #081b29;
+    
+
+}
+.about-img img{
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-top: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.about .btn-box {
+    display: inline-flex;
+    font-size: 19px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+    width: 150px;
+    height: 100%;
+    background: #081b29;
+    border: 2px solid #081b29;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+.heading{
+    text-align: center;
+    font-size: 4.5rem;
+}
+.about-content h2{
+    text-align: left;
+    line-height: 1.2;
+}
+.about-content h3{
+    font-size: 2.6rem;
+}
+.about-content p{
+    font-size: 1rem;
+    margin: 2rem 0 3rem;
+    text-align: justify;
+    margin-right: 25px;
+}
+/* Services Design */
+.knowledge h2{
+    margin-bottom: 5rem;
+}
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.services-container .services-box{
+    flex: 1 1 10rem;
+    background: #081b29;
+    padding: 1.5rem 1rem 2rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+.services-box i{
+    font-size: 5rem;
+    color: #A8A8A8;
+}
+.services-container .services-box:hover{
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+.services-box h3{
+    color: aliceblue;
+    font-size: 1.5rem;
+    
+}
+
+
+
+
+
+
+

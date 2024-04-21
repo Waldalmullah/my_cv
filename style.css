@@ -374,6 +374,8 @@ body{
     margin-top: 4rem;
     background: #264653;
     color: aliceblue;
+    padding-bottom: 4rem;
+    
 }
 .experince h2{
     margin-bottom: 2rem;
@@ -399,8 +401,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+}
+.experince-container .experince-box:hover{
+    transform: scale(1.05);
+    transition: .3s;
 }
 .experince-box .experince-layer{
     

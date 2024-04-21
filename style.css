@@ -20,8 +20,8 @@ body{
     left: 0;
     width: 100%;
     padding: 15px 10%;
-    /* background-color:aliceblue; */
-    background: transparent;
+    background-color:#A8A8A8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -225,7 +225,7 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: absolute;
     top: 100px;
-    right: 100px;
+    right: 70px;
     
     
 }
@@ -233,7 +233,7 @@ body{
 .home .image-cover .photo:hover{
     background: lightslategray;
     
-    transform: scale(0.9);
+    transform: scale(1.05);
     transition: .3s;
     z-index: 1;
 }
@@ -286,7 +286,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background: #A8A8A8;
+    background: #fdf0d5;
     color: #081b29;
     
 
@@ -295,6 +295,7 @@ body{
     border-radius: 50%;
     margin-left: 8px;
     margin-top: 16px;
+    margin-bottom: 32px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .about .btn-box {
@@ -332,7 +333,7 @@ body{
     text-align: justify;
     margin-right: 25px;
 }
-/* Services Design */
+/* knowledge Design */
 .knowledge h2{
     margin-bottom: 5rem;
 }
@@ -351,13 +352,16 @@ body{
     padding: 1.5rem 1rem 2rem;
     border-radius: 2rem;
     text-align: center;
+    border: 2px solid aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .services-box i{
     font-size: 5rem;
     color: #A8A8A8;
 }
 .services-container .services-box:hover{
-    transform: scale(0.9);
+    transform: scale(1.02);
+    
     transition: 0.3s;
 }
 .services-box h3{
@@ -365,6 +369,74 @@ body{
     font-size: 1.5rem;
     
 }
+/* Experince style */
+.experince{
+    margin-top: 4rem;
+    background: #264653;
+    color: aliceblue;
+}
+.experince h2{
+    margin-bottom: 2rem;
+    
+}
+.experince #arrow{
+    font-size: 2rem;
+}
+
+.experince-container{
+    display: grid;
+    grid-template-columns: repeat(1);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+.experince-container .experince-box{
+    
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem #081b29;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.experince-box .experince-layer{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    width: 500px;
+    height: auto;
+    
+}
+.experince-layer p{
+    text-align: justify;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.experince-layer h4{
+    font-size: 1.5rem;
+    
+}
+.experince-layer h5{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.experince-layer h6{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.experince-layer #clip{
+    font-size: 3rem;
+}
+
 
 
 
